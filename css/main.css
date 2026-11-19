@@ -1,1 +1,19 @@
-/* Place CSS styles here */
+/* Applies to ALL */
+*{
+    box-sizing: border-box;
+    
+    /* temporary to see elements borders */
+    border: 1px solid; 
+}
+
+/* nav and header stuff */
+nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+
+}
